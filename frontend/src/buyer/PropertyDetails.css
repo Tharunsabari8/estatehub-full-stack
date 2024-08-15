@@ -1,0 +1,28 @@
+.property-details-container {
+  border: 1px solid #ff8c00; /* Orange border */
+  padding: 20px;
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background: #1a1a1a; /* Dark background */
+  box-shadow: 0 4px 8px rgba(255, 140, 0, 0.3); /* Orange shadow */
+  transition: transform 0.3s;
+  color: white; /* White text */
+}
+
+.property-details-container:hover {
+  transform: translateY(-10px);
+}
+
+.property-details-container h2 {
+  margin-bottom: 10px;
+  color: #ff8c00; /* Orange text for headings */
+}
+
+.property-details-container .property-size,
+.property-details-container .property-price,
+.property-details-container .property-agent,
+.property-details-container .property-details {
+  margin-bottom: 10px;
+  color: #fff; /* White text */
+}

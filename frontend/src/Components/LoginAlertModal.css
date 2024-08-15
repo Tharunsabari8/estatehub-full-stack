@@ -1,0 +1,55 @@
+.login-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .login-alert-modal {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .login-oops{
+    font-size: 100px;
+  }
+  .login-alert-title {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #ff8c00;
+  }
+  
+  .login-alert-message {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .login-alert-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-alert-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #ff8c00;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-alert-button:hover {
+    background: #e07c00;
+  }
+  

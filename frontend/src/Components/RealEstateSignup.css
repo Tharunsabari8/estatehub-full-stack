@@ -1,0 +1,128 @@
+.signup-container {
+    width: 100%;
+    max-width: 400px; /* Reduced the max-width for a smaller popup */
+    margin: 0 auto;
+    padding: 20px; /* Reduced padding for a smaller appearance */
+    background: #1a1a1a; /* Black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.signup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Adjusted width to fit the smaller container */
+    padding: 0 15px; /* Reduced padding */
+}
+
+.signup-form {
+    flex: 1;
+    margin-right: 20px; /* Reduced margin for better fit */
+}
+
+.signup-form-title {
+    margin-bottom: 15px; /* Reduced margin for a compact look */
+    font-size: 24px; /* Slightly reduced font size */
+    color: #ff8c00; /* Orange color */
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-form-group {
+    margin-bottom: 15px; /* Reduced margin for compactness */
+    position: relative;
+}
+
+.signup-form-group input[type="text"], 
+.signup-form-group input[type="email"], 
+.signup-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 16px; /* Reduced padding for smaller input fields */
+    font-size: 16px; /* Slightly reduced font size */
+    border: none;
+    border-bottom: 2px solid #ff8c00; /* Orange border */
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding-left: 35px; /* Adjusted padding for icon */
+}
+
+.signup-form-group input[type="text"]:focus, 
+.signup-form-group input[type="email"]:focus, 
+.signup-form-group input[type="password"]:focus {
+    border-bottom: 2px solid #e07c00; /* Lighter orange border on focus */
+    outline: none;
+}
+
+.signup-form-submit {
+    padding: 8px 25px; /* Reduced padding for a smaller button */
+    font-size: 14px; /* Reduced font size */
+    border: none;
+    background: #ff8c00; /* Orange button */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.signup-form-submit:hover {
+    background: #e07c00; /* Darker orange on hover */
+}
+
+.create-account-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px; /* Reduced margin for compactness */
+    font-size: 14px; /* Reduced font size */
+    color: #ff8c00; /* Orange link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account-link:hover {
+    color: #e07c00; /* Darker orange on hover */
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px; /* Reduced margin */
+}
+
+.social-login p {
+    color: #fff; /* White text */
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 14px; /* Reduced font size */
+}
+
+.social-link {
+    margin: 0 8px; /* Slightly reduced margin between icons */
+    font-size: 22px; /* Slightly reduced icon size */
+    color: #ff8c00; /* Orange social links */
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #e07c00; /* Darker orange on hover */
+}
+
+/* Icons inside input fields */
+.signup-form-group .fa {
+    position: absolute;
+    left: 8px; /* Adjusted position for the icon */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ff8c00; /* Orange icon */
+}
+
+.signup-form-error {
+    color: #fff; /* White error text */
+    background: #d9534f; /* Red background for error message */
+    padding: 8px; /* Reduced padding */
+    border-radius: 5px;
+    margin-bottom: 15px; /* Reduced margin */
+    text-align: center;
+}

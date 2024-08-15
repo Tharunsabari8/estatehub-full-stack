@@ -1,0 +1,51 @@
+.result-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ffffff; /* Black background */
+  color: black; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.result-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.result-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.contact-button, .whatsapp-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-button {
+  background-color: #ff8c00; /* Orange button */
+  color: #fff; /* White text */
+}
+
+.contact-button:hover {
+  background-color: #e07c00; /* Darker orange on hover */
+  transform: translateY(-3px);
+}
+
+.whatsapp-button {
+  background-color: #25d366; /* WhatsApp green */
+  color: #fff; /* White text */
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe55; /* Darker green on hover */
+  transform: translateY(-3px);
+}

@@ -1,0 +1,282 @@
+.signin-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 23px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    background: #1a1a1a;
+    box-shadow: orange;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.signin-content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.signin-form {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.signin-image {
+    flex: 1;
+    text-align: center;
+}
+
+.signin-form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff8c00;
+    text-align: left; /* Align title to the left */
+    font-weight: bold;
+}
+
+.signin-form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.signin-form-group input[type="email"], 
+.signin-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ff8c00;
+    background: #333;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.signin-form-group input[type="email"]:focus, 
+.signin-form-group input[type="password"]:focus {
+    border-bottom: 2px solid #e07c00;
+    outline: none;
+}
+
+.signin-form-group input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    accent-color: #fff;
+    background-color: #1a1a1a;
+    border: 1px solid #ff8c00;
+    margin-right: 10px;
+}
+
+.label-agree-term {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.signin-form-submit {
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    background: #ff8c00;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.signin-form-submit:hover {
+    background: #e07c00;
+}
+
+.create-account-link {
+    display: block;
+    text-align: left; /* Align link to the left */
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account-link:hover {
+    color: #e07c00;
+}
+
+.signin-image-link {
+    display: block;
+    text-align: left; /* Align link to the left */
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-login {
+    text-align: left; /* Align text to the left */
+    margin-top: 30px;
+}
+
+.social-login p {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.social-link {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ff8c00;
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #e07c00;
+}
+
+/* Icons inside input fields */
+.signin-form-group .fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ff8c00;
+}
+
+This is signupcss
+
+.signin-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #1a1a1a; /* Black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.signin-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.signin-form {
+    flex: 1;
+    margin-right: 50px;
+}
+
+
+
+.signin-form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ff8c00; /* Orange color */
+    text-align: center;
+    font-weight: bold;
+}
+
+.signin-form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.signin-form-group input[type="email"], 
+.signin-form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ff8c00; /* Orange border */
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding-left: 40px;
+}
+
+.signin-form-group input[type="email"]:focus, 
+.signin-form-group input[type="password"]:focus {
+    border-bottom: 2px solid #e07c00; /* Lighter orange border on focus */
+    outline: none;
+}
+
+.signin-form-submit {
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    background: #ff8c00; /* Orange button */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.signin-form-submit:hover {
+    background: #e07c00; /* Darker orange on hover */
+}
+
+.create-account-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff8c00; /* Orange link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-account-link:hover {
+    color: #e07c00; /* Darker orange on hover */
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-login p {
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.social-link {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ff8c00; /* Orange social links */
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #e07c00; /* Darker orange on hover */
+}
+
+/* Icons inside input fields */
+.signin-form-group .fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ff8c00; /* Orange icon */
+}
+
+.signin-form-error {
+    color: #fff; /* White error text */
+    background: #d9534f; /* Red background for error message */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+

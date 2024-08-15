@@ -1,0 +1,57 @@
+.property-list {
+    padding: 40px;
+    
+    margin: 0 auto;
+    background-color: black; /* Black background */
+    color: white; /* Orange text color */
+    border-radius: px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.property-list h2 {
+    margin-bottom: 20px;
+    color: #ff8c00; /* Orange heading */
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.property-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.property-list li {
+    margin-bottom: 15px;
+    border-radius: 100px; /* Orange bottom border */
+    border: 3px solid #ff8c00;
+    padding: 30px;
+    margin: 100px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000; /* Dark grey background for list items */
+    border-radius: 5px;
+}
+
+.property-list li:last-child {
+    border-bottom: none;
+}
+
+.property-list li strong {
+    color: #e07c00; /* Slightly darker orange for labels */
+}
+
+.property-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #ff8c00; /* Orange border around images */
+}

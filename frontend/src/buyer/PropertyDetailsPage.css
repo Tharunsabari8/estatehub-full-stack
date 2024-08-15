@@ -1,0 +1,111 @@
+/* Main container styling */
+.property-details-page {
+  display: flex; /* Enable flexbox for vertical stacking */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center the content horizontally */
+  padding: 3.065rem;
+  background-color: black;
+  min-height: 100vh;
+}
+
+/* Container for image and details */
+.property-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: rem; /* Adds space between the image and the details */
+  width: 100%;
+  max-width: 1200px; /* Optional: Set a max-width for better responsiveness */
+  margin-bottom: 2rem; /* Space between the main content and the amenities */
+}
+.imgdiv{
+  margin: 50px;
+}
+
+/* Image styling */
+.propertydetails-image {
+  width: 350px;
+  border-radius: 10px;
+  flex-shrink: 0; /* Prevents the image from shrinking */ /* Space between images */
+  object-fit: cover; 
+  padding: 20px;
+}
+/* Container for property details */
+.property-details-container {
+  margin: 100px;
+  width: 100%;
+  height:720px;
+  max-width: 700px; /* Optional: Set a max-width for better responsiveness */
+  background: black;
+  padding: 2rem;
+  color: white;
+  border: 5px solid #ff8c00;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.property-details-patta{
+  display: flex;
+  gap: 2rem;
+}
+
+/* Detail sections */
+.firstdetail,
+.seconddetail {
+  display: flex;
+  justify-content:center ;
+  align-items:center ;
+}
+
+/* Header and content styling */
+.property-details-container h2,
+.property-amenities-container h3 {
+  margin-top: 0;
+}
+
+.property-details-container div,
+.property-amenities-container div {
+  margin: 0.5rem 0;
+}
+
+/* List styling */
+.property-features ul,
+.property-amenities ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.property-features li,
+.property-amenities li {
+  margin: 0.3rem 0;
+}
+
+/* Icon styles */
+.property-amenities li::before {
+  content: '•'; /* Replace with your desired icon */
+  color: #ff8c00; /* Icon color */
+  margin-right: 0.5rem;
+}
+
+/* Amenities container */
+.property-amenities {
+  background: black;
+  padding: 2rem;
+  color: white;
+
+  border: 5px solid #ff8c00;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 4rem;
+}
+
+/* Nearby facilities container */
+.nearby-facilities {
+  background: black;
+  padding: 2rem;
+  color: white;
+  width: 60%;
+  border: 5px solid #ff8c00;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
